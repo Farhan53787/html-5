@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+      <title>Just for Fun</title>
+</head>
+<body>
+    <h1>Realize who you are!</h1>
+
+    <img src="d:\gratisography-cool-cat-800x525.jpg"
+    style="width: 256px; height: 128px;">
+
+    <audio controls autoplay>
+    <source src="c:\Users\rootl\Downloads\dragon-studio-goat-sound-390298.mp3">
+    </audio>
+</body>      
+</html>
