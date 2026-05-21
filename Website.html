@@ -10,6 +10,7 @@
                 background-color : #f77373;
                 margin: 20px 0; 
                 color: white;
+                letter-spacing: 4px;
             } 
             .heading {
                 font-size: 24px;
@@ -45,20 +46,76 @@
                 border-radius: 10px;
                 text-align: center;
             }
-            .img1 {
+            .pimg1 {
+                position: relative;
+                background-position: center;
                 background-size: cover;
                 opacity: 0.5;
             }
             .ptext {
-                text-align: center;
-                font-size: 30px;
-                
-            }
-                .section-dark {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center; 
+    color: #000000;
+    font-size: 27px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+            .section-dark {
                     background-color: #333;
                     color: white;
                     text-align: center;
                 }
+            .ptext.border {
+
+position:absolute;
+
+top:50%;
+
+width:100%;
+
+text-align:center;
+
+color:#000;
+
+font-size:27px;
+
+letter-spacing:8px;
+
+text-transform:uppercase;
+
+}
+
+.pimg3 {
+    background-image: url('atoms.jpg');
+    min-height: 400px;
+    background-attachment: fixed;
+}
+
+.ptext .border {
+
+background-color:#111;
+
+color:#fff;
+
+padding:20px;
+
+}
+
+.ptext .border.trans {
+
+background-color:transparent;
+
+}
+
+@media(max-width:568px){
+
+.pimg1 {
+
+background-attachment:fixed;
+
+}}
         </style>
     </head>
     <body>
@@ -84,6 +141,24 @@
 
         <section class=" section section-dark">
             <span>All @copy are reserved.</span>
+        </section>
+        <section class="section section-black">
+            <h2>
+                Nuclear Stability
+            </h2>
+            <p>
+                Nuclear stability refers to the ability of an atomic nucleus to exist without undergoing radioactive decay. This stability is determined by the balance between the strong nuclear force, which holds nucleons together, and the electromagnetic force, which causes protons to repel each other. Nuclei that are stable contain a balanced ratio of protons and neutrons, while those that are unstable undergo radioactive decay to achieve a more stable configuration.
+            </p>
+
+        <div class="pimg3">
+        </div>
+
+        <h2>
+            Nuclear Waste Management
+        </h2>
+        <p>
+            Nuclear waste management is the process of handling and disposing of radioactive materials generated from nuclear power plants and other nuclear activities. This waste can be categorized into low-level, intermediate-level, and high-level waste, each requiring different methods of disposal. High-level waste, which includes spent nuclear fuel, is particularly hazardous and requires long-term storage solutions to prevent environmental contamination and ensure public safety. Common methods of nuclear waste management include deep geological repositories, where waste is buried deep underground, and reprocessing, which involves separating usable materials from the waste for reuse in reactors.
+        </p>
         </section>
     </body>
 </html>
