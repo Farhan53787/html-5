@@ -4,18 +4,94 @@
     <link rel="stylesheet" href="style.css">
     <span class="border trans" style="font-size:40px;">
     </span><br>
+    <style>
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+            font-family: comic sans ms, cursive;
+        }
+    
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+    
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    
+        .topnav a.active {
+            background-color: #ff0000;
+            color: white;
+        }
+    
+        .topnav a.none {
+            background-color: #7bff00;
+            color: #f2f2f2;
+            border-radius: 25%;
+            font-family: "Bauhaus 93", cursive;
+            font-size: 18px;
+            letter-spacing: 3px;
+        }
+        .footer {
+                background-color: lightgrey;
+                text-align: center;
+                padding: 10px;
+                position: none;
+                color: #666666;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+            }
+    </style>
     </head>
     <body>
-        <div src="Navigation Bar.html"></div>
+        <div class="topnav">
+            <a></a>
+            <a class="none" style="text-align: center;">Psychopedia</a>
+            <a></a>
+            <a href="#home" class="active">Home</a>
+            <a href="My Portfolio.html">About Us</a>
+            <a href="file:///C:/Coding/Bootstrap/BookClub.html">Gallery</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+        <div class="pimg3">
         <section class="section section-light">
             <h1>Section I</h1>
             <h2>Atoms</h2>
-            <p>Atoms are the basic units of matter. They consist of a nucleus surrounded by electrons.</p>
+            <p>Atoms are the basic units of matter. They consist of a nucleus surrounded by electrons, with protons and neutrons in it.</p>
         </section>
-        <div class="pimg3">
             <div class="ptext">
-                <span class="border trans">Image Two Text</span>
+                <span class="border trans">Have you ever learned about different types of atoms?</span>
             </div>
+        </div>
+        <section class="section section-dark">
+            <h1>Section II</h1>
+            <h2>Molecules</h2>
+            <p>Molecules are made up of two or more atoms that are chemically bonded together. They can be simple, like oxygen (O2), or complex, like DNA. They can be either heterogeneous or homogeneous.</p>
+        </section>
+        <div class="pimg2">
+            <div class="ptext">
+                <span class="border trans">Did you drink water today? It contains molecules!</span>
+            </div>
+        </div>
+        <section class="section section-white">
+            <h1>Section III</h1>
+            <h2>Ions</h2>
+            <p>Ions are atoms that have gained or lost electrons, giving them an electric charge. They play a crucial role in many chemical reactions and biological processes. They may be positive (cations) or negative (anions).</p>
+        </section>
+        <div class="pimg1">
+            <div class="ptext">
+                <span class="border trans">Have you ever see plasma acting between wires? It is made up of ions!</span>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; Thanks for having this little journey! This website is created at 2026.</p>
         </div>
     </body>
 </html>
