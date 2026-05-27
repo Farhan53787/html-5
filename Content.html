@@ -5,6 +5,65 @@
     <span class="border trans" style="font-size:40px;">
     </span><br>
     <style>
+        .pimg1, .pimg2, .pimg3 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg1 {
+    background-image: url("c:/Users/rootl/OneDrive/Desktop/ion.avif");
+    min-height: 100%;
+}
+.pimg2 {
+    background-image: url("c:/Users/rootl/OneDrive/Desktop/molecule.jpg");
+    min-height: 100%;
+}
+.pimg3 {
+    background-image: url("c:/Users/rootl/OneDrive/Desktop/atom.jpeg");
+    min-height: 1000px;
+}
+.section { 
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light {
+    background-color: #f4f4f4;
+    color: #666666;
+}
+.section-dark {
+    background-color: #666666;
+    color: #f4f4f4;
+}
+.section-white {
+    background-color: #fff;
+    color: #666666;
+}
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center; 
+    color: #000000;
+    font-size: 27px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+.ptext.border {
+    background-color: #111;
+    color: #fff;
+    padding: 10px;
+}
+ptext.border.trans {
+    background-color: transparent;
+}
+@media(max-width:568px) {
+    .pimg1, .pimg2, .pimg3 {
+        background-attachment: scroll;
+    }
+}
         .topnav {
             overflow: hidden;
             background-color: #333;
