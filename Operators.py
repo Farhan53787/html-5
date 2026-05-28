@@ -1,0 +1,14 @@
+a=15;
+b=9;
+sum=a+b;
+difference=a-b;
+product=a*b;
+quotient= a/b;
+exponentiation=a**b;
+root=a**(1/b);
+print("a+b =", sum);
+print("a-b =", difference);
+print("a*b =", product);
+print("a/b =", quotient);
+print("a to the power of b =", exponentiation);
+print("b-th root of a =", root);
