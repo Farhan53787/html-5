@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-color: #FFFDD0;
+        }
+        fieldset {
+            background-color: #48ff00;
+            border: 1px solid #ff0000;
+            border-width: 5px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <hi>
+        <center><h2> Contact us at: </h2></center>
+        <center><h2> Farhanjoarder@gmail.com </h2></center>
+    </hi>
+    <form>
+
+    <fieldset>
+        <label>Name:</label><br>
+        <input type="text" name="name"><br>
+        <label>Enter your age:</label><br>
+        <input type="text" name="age"><br>
+        <label> Enter your email:</label><br>
+        <input type="text" name="email"><br>
+        <label>Message :</label><br>
+        <textarea></textarea><br>
+        <input type="submit" value="submit" onclick="send() href="https://gmail.com/">
+    </fieldset>
+    </form>
+    
+    <script>
+        function send() {
+            window.location.href = "mailto: Farhanjoarder@gmail.com&body=Name:%20Contact%20Us%20Form%20Submission" + document.getElementsByName("name")[0].value + "%0A%0AAge:%20" + document.getElementsByName("age")[0].value + "%0A%0AEmail:%20" + document.getElementsByName("email")[0].value + "%0A%0AMessage:%20" + document.getElementsByTagName("textarea")[0].value;
+            window.location.href = "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=Farhanjoarder@gmail.com";
+        }
+    </script>
+</body>
+</html>
