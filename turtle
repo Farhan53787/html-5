@@ -1,0 +1,11 @@
+import turtle
+
+turtle.Screen().bgcolor("red")
+
+sc = turtle.Screen()
+
+sc.setup(600, 600)
+
+sc.title("Turtle Graphics")
+
+turtle.done()
